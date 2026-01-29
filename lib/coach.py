@@ -3,6 +3,8 @@ class Coach:
         self.student_roster = []
 
     def add_student(self, student):
+        print(student)
+        print(student.name)
         self.student_roster.append(student)
 
     def count_students_submission(self):
